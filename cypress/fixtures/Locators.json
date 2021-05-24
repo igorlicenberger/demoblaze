@@ -1,0 +1,60 @@
+{
+    "Header" : {
+        "Home" : ".active > .nav-link",
+        "Contact" : ":nth-child(2) > .nav-link",
+        "Signup" : "#signin2",
+        "Login" : "#login2",
+        "Logout" : "#logout2",
+        "AboutUs" : ":nth-child(3) > .nav-link",
+        "Card" : "#cartur",
+        "Categories" : "#cat"
+    },
+    
+    "Contact" : {
+        "Email" : "#recipient-email",
+        "Name" : "#recipient-name",
+        "Message" : "#message-text",
+        "Close" : "#exampleModal > .modal-dialog > .modal-content > .modal-footer > .btn-secondary",
+        "Send" : "#exampleModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary"
+    },
+    
+    "Signup" : {
+        "Username" : "#sign-username",
+        "Password" : "#sign-password",
+        "Close" : "#signInModal > .modal-dialog > .modal-content > .modal-footer > .btn-secondary",
+        "Signup" : "#signInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary"
+    },
+
+    "Login" : {
+        "Username" : "#loginusername",
+        "Password" : "#loginpassword",
+        "Close" : "#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-secondary",
+        "Loginbutton" : "#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary"
+    },
+
+    "AboutUs" : {
+        "Video" : "vjs-play-control vjs-control vjs-button vjs-paused",
+        "Close" : "#videoModal > .modal-dialog > .modal-content > .modal-footer > .btn"
+    },
+
+    "Card" : {
+        "PlaceOrder" : ".col-lg-1 > .btn",
+        "Name" : "#name",
+        "Country" : "#country",
+        "City" : "#city",
+        "CreditCard" : "#card",
+        "Month" : "#month",
+        "Year" : "#year",
+        "Close" : "#orderModal > .modal-dialog > .modal-content > .modal-footer > .btn-secondary",
+        "Purchase" : "#orderModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary"
+    },
+
+    "Categories" : {
+        "Phones" : "#itemc",
+        "Next" : "#next2",
+        "SamsungS7" : ":nth-child(4) > .card > .card-block > .card-title > .hrefch",
+        "Previous" : "#prev2",
+        "Add" : ".col-sm-12 > .btn",
+        "SonyVaio" : ":nth-child(8) > .card > .card-block > .card-title > .hrefch"    
+    } 
+}
